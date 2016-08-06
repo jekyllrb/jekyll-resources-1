@@ -1,0 +1,49 @@
+title : Site Title
+tagline: Site Tagline
+description: Site Description
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: pygments
+author :
+  name : Name Lastname
+  email : myemail@email.com
+  github : username
+  twitter : username
+  feedburner : feedname
+production_url : http://username.github.io
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
+atom_path : /atom.xml
+rss_path : /rss.xml
+comments :
+  provider : disqus
+  disqus :
+    short_name : username
+  livefyre :
+    site_id : 123
+  intensedebate :
+    account : 123abc
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
+  duoshuo :
+    short_name : username
+analytics :
+  provider : google
+  gauges :
+      site_id : 'SITE ID'
+  google : 
+      tracking_id : 'UA-123-12'
+  getclicky :
+    site_id : 
+  mixpanel :
+      token : '_MIXPANEL_TOKEN_'
+  piwik :
+    baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+    idsite : '1'                   # the id of the site on Piwik
+sharing :
+  provider : false
+  
