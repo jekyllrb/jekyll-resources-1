@@ -1,0 +1,5 @@
+<title>{% if page.title %}{{ page.title }}{% elsif paginator.page == 1 %}{{ site.title }} | Home Page {% elsif paginator.page == 2 %}{{ site.title }} | Recent Post Page {% else %}{{ site.title }} | Archive Page {{ paginator.page | minus:2 }}{% endif %}</title>
+
+<!-- TODO -->
+<!-- 1. description -->
+<!-- 2. tags -->
